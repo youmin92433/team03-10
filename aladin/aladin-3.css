@@ -1,0 +1,829 @@
+@charset "utf-8";
+
+body {
+    background-color: #ffffff;
+}
+body,
+td,
+tr {
+    color: #444444;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: Malgun Gothic, Dotum, "돋움", Helvetica, "Apple SD Gothic Neo",
+        sans-serif !important;
+    line-height: 18px;
+} /*text-align:center;*/
+div {
+    text-align: left;
+} /* color:#444444; */
+img {
+    border: none;
+}
+/*table { cellpadding:0; cellspacing:0; border:0; }*/
+table,
+td,
+select,
+input {
+    color: #3e3e3e;
+    font-family: Malgun Gothic, Dotum, "돋움", Helvetica, "Apple SD Gothic Neo",
+        sans-serif;
+    font-size: 12px;
+}
+
+a:link {
+    color: #444444;
+    text-decoration: none;
+}
+a:visited {
+    color: #444444;
+    text-decoration: none;
+}
+a:hover {
+    color: #386da1;
+    text-decoration: underline;
+}
+
+a.bl:link {
+    color: #386da1;
+    text-decoration: none;
+}
+a.bl:visited {
+    color: #386da1;
+    text-decoration: none;
+}
+a.bl:hover {
+    color: #386da1;
+    text-decoration: underline;
+}
+
+/*
+a.bo:link {  color: #3774B1; font-weight: bold; text-decoration: none}
+a.bo:visited {  color: #3774B1; font-weight: bold; text-decoration: none}
+a.bo:hover {  color: #3774B1; font-weight: bold; text-decoration: underline}
+*/
+
+a.mt1:link {
+    color: #5865b4;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+a.mt1:visited {
+    color: #5865b4;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+a.mt1:hover {
+    color: #5865b4;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+a.mt0:link {
+    color: #919191;
+    font-weight: none;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+a.mt0:visited {
+    color: #919191;
+    font-weight: none;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+a.mt0:hover {
+    color: #919191;
+    font-weight: none;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.np_bz {
+    color: #14a414;
+    font-weight: bold;
+}
+a.np_bz:link {
+    color: #14a414;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+a.np_bz:visited {
+    color: #14a414;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+a.np_bz:hover {
+    color: #14a414;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.pk {
+    color: #ec6896;
+}
+.price {
+    color: #b54a72;
+}
+.author {
+    color: #919191;
+}
+
+#Mwrap {
+    clear: both;
+    width: 930px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#b_banner table {
+    display: inline;
+}
+
+/*Browse*/
+
+/*
+a.bo1:link {  color: 3774B1; text-decoration: none}
+a.bo1:visited {  color: 3774B1; text-decoration: none}
+a.bo1:hover {  color: 3774B1; text-decoration: underline}
+*/
+
+a.b_event:link {
+    color: F2930A;
+    text-decoration: none;
+}
+a.b_event:visited {
+    color: F2930A;
+    text-decoration: none;
+}
+a.b_event:hover {
+    color: F2930A;
+    text-decoration: underline;
+}
+
+.accent {
+    color: #f2930a;
+    font-weight: bold;
+}
+.magazine {
+    color: #0000ff;
+}
+.accent {
+    color: #f2930a;
+    font-weight: bold;
+}
+
+.study1 {
+    color: #e79015;
+    font-weight: bold;
+}
+.study2 {
+    color: #62a824;
+    font-weight: bold;
+}
+.study3 {
+    color: #2099c1;
+    font-weight: bold;
+}
+
+#browse_sub1 {
+    border: 3px solid #d2e9f5;
+    width: 220px;
+    padding: 0 6px;
+}
+#browse_sub2 li {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 3px 0 2px 0;
+}
+#browse_sub2 li:last-child {
+    border-bottom: 0;
+}
+#browse_sub2 a {
+    display: block;
+}
+#browse_event {
+    margin: 7px 0 0 0;
+}
+#browse_event a {
+    color: #633ebf;
+}
+.browse_sub a {
+    padding: 2px 0;
+}
+.browse_sub a:hover {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+li.browseLayer {
+    padding-bottom: 0;
+}
+
+.iteminfo_l1td4 {
+    width: 130px;
+}
+
+.form2 {
+    font-family: "돋움";
+    font-size: 9pt;
+    color: 606060;
+    border-top: 1px solid #a4a4a4;
+    border-right: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    border-left: 1px solid #a4a4a4;
+}
+
+.form1 {
+    font-family: "돋움";
+    font-size: 9pt;
+    color: 606060;
+    border: 0px none;
+    padding: 2px 0px 0px;
+}
+
+.menutd a:hover {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menutd2 a:hover {
+    background-color: #edf6fe;
+    color: #386da1;
+    text-decoration: none;
+}
+.menutd3 a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+A.gl3:link {
+    color: #606060;
+    text-decoration: none;
+}
+A.gl3:visited {
+    color: #606060;
+    text-decoration: none;
+}
+A.gl3:hover {
+    color: #606060;
+    text-decoration: none;
+}
+
+img.linkP {
+    cursor: pointer;
+}
+/* 2007-08-31 added by visharp*/
+A.gl:link {
+    color: #606060;
+    text-decoration: none;
+    background-image: url(/img/common/un_dot.gif);
+}
+A.gl:visited {
+    color: #606060;
+    text-decoration: none;
+    background-image: url(/img/common/un_dot.gif);
+}
+A.gl:hover {
+    color: #386da1;
+    text-decoration: underline;
+}
+
+.pb1 {
+    font-weight: bold;
+    color: #b54a72;
+}
+.p1 {
+    color: #b54a72;
+}
+.p1_bold {
+    font-weight: bold;
+}
+
+a.bo:link {
+    color: #3774b1;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.bo:visited {
+    color: #3774b1;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.bo:hover {
+    color: #3774b1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gw {
+    color: #919191;
+}
+.gw2 {
+    color: #777777;
+}
+.ev {
+    color: #1962a7;
+}
+
+.satang1 {
+    color: #fd7aa8;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.satang2 {
+    color: #f56800;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+.s_review_num {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.s_review_img {
+    vertical-align: middle;
+    margin: 5px 3px 5px 0;
+}
+
+/*GS 메뉴추가*/
+.gs_w {
+    background: url(https://www.aladin.co.kr/ucl_editor/img_secur/header/GS_top_bg.jpg)
+        repeat-x;
+    vertical-align: top;
+    padding-top: 5px;
+}
+.gs_left {
+    text-align: left;
+    float: left;
+}
+.gs_left2 {
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+}
+.gs_left3 {
+    text-align: left;
+    float: left;
+    padding-left: 30px;
+}
+
+/* 2011-05-16 vtype 디자인 변경 */
+/*
+.astudyp { margin:8px 0 5px 0;}
+a.bo2:link {color:#333333;font-weight:bold;text-decoration:none;font-size:14px;}
+a.bo2:visited {color:#333333;font-weight:bold;text-decoration:none;font-size:14px;}
+a.bo2:hover {color:#336699;font-weight:bold;text-decoration:underline;font-size:14px;}
+
+a.bo:link {color:#333333;}
+a.bo:visited {color:#333333;}
+a.bo:hover {color:#336699;}
+
+.p1_n {color:#cc0066;}
+.p1_n2 {color:#f47900;}
+.p1_n3 {color:#62bbe0;}
+.p1_n4 {color:#f33494;}*/
+
+/*중고 급구 게시판*/
+.quickly {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+.quickly_on {
+    background-color: #eeeeee;
+}
+a.list_layer:link {
+    color: #444444;
+    text-decoration: none;
+}
+a.list_layer:visited {
+    color: #444444;
+    text-decoration: none;
+}
+a.list_layer:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*VType 2014 : bottom정렬 문제 개선*/
+.wel_vtype {
+    width: 500px;
+    clear: both;
+} /*웰컴-4권*/
+.wel_vtype ul {
+    float: left;
+}
+.wel_vtype li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 125px;
+}
+.wel_vtype dl {
+    margin: 0 8px;
+}
+.wel_vtype dt {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.wel_vtype dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.wel_vtype dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.bookmain_vtype {
+    float: left;
+    width: 558px;
+    background: url(//image.aladin.co.kr/img/main/img_book/dotline.gif) repeat-y;
+    clear: both;
+    margin-top: 3px;
+} /*국내도서-3권*/
+.bookmain_vtype ul {
+    float: left;
+}
+.bookmain_vtype li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 182px;
+}
+.bookmain_vtype dl {
+    margin: 0 10px;
+}
+.bookmain_vtype dt {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.bookmain_vtype dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 39px;
+    padding: 0;
+}
+.bookmain_vtype dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.browse_vtype {
+    float: left;
+    width: 740px;
+    clear: both;
+} /*분야-5권*/
+.browse_vtype ul {
+    float: left;
+}
+.browse_vtype li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 148px;
+}
+.browse_vtype dl {
+    margin: 0 10px;
+}
+.browse_vtype dt {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.browse_vtype dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 22px;
+    padding: 0;
+}
+.browse_vtype dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.browse_vtype_best {
+    float: left;
+    width: 740px;
+    clear: both;
+    background: url(//image.aladin.co.kr/img/browse/ranking.gif) no-repeat top;
+} /*분야-5권-베스트5위 순위 표기*/
+.browse_vtype_best ul {
+    float: left;
+}
+.browse_vtype_best li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 148px;
+}
+.browse_vtype_best dl {
+    margin: 0 10px;
+}
+.browse_vtype_best dt {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.browse_vtype_best dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 22px;
+    padding: 0;
+}
+.browse_vtype_best dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.browse_vtype_half {
+    width: 520px;
+    clear: both;
+} /*분야-반값 4권*/
+.browse_vtype_half ul {
+    float: left;
+}
+.browse_vtype_half li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 130px;
+}
+.browse_vtype_half dl {
+    margin: 0 10px;
+}
+.browse_vtype_half dt {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.browse_vtype_half dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.browse_vtype_half dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.browse_vtype_best_big {
+    float: left;
+    width: 740px;
+    clear: both;
+    background: url(//image.aladin.co.kr/img/browse/ranking2.gif) no-repeat top;
+} /*분야-5권-베스트5위 순위 표기*/
+.browse_vtype_best_big ul {
+    float: left;
+}
+.browse_vtype_best_big li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 185px;
+}
+.browse_vtype_best_big dl {
+    margin: 0 10px;
+}
+.browse_vtype_best_big dt {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.browse_vtype_best_big dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+.browse_vtype_best_big dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.p_mpzero {
+    margin: 0;
+    padding: 0;
+}
+.p_newbookfont {
+    color: #679fd7;
+    margin: 0;
+    padding: 0 10px 3px 10px;
+    text-align: center;
+}
+
+.br2010_sp04 {
+    color: #f96521;
+    font-weight: bold;
+} /*분야 원래있던 코드*/
+.p1_n4 {
+    color: #f33494;
+} /*분야 원래있던 코드*/
+.p1_n3 {
+    color: #75bfe1;
+} /*분야 원래있던 코드*/
+.cl {
+    clear: both;
+}
+
+/*장르소설 분야*/
+.br_newapply {
+    float: left;
+}
+.br_newapply dl {
+    float: left;
+    width: 156px;
+}
+.br_newapply dt {
+    float: left;
+    width: 106px;
+    padding: 2px 0;
+}
+.br_newapply dd {
+    float: right;
+    width: 38px;
+    text-align: right;
+    padding: 2px 0 2px 0;
+    background: url(//image.aladin.co.kr/img/browse/letter2.gif) no-repeat 0 5px;
+}
+.br_newapply dd a:link,
+a:visitied {
+    color: #686868;
+    font-size: 11px;
+}
+
+.browse_vtype_big {
+    float: left;
+    width: 740px;
+    clear: both;
+} /*분야-5권- 커버150*/
+.browse_vtype_big ul {
+    float: left;
+}
+.browse_vtype_big li {
+    float: left;
+    display: inline;
+    list-style: none;
+    width: 185px;
+}
+.browse_vtype_big dl {
+    margin: 0 10px;
+}
+.browse_vtype_big dt {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.browse_vtype_big dt p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+.browse_vtype_big dd {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.browse_vtype_uplayer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: "나눔고딕", NanumGothic, "돋움", Dotum, Helvetica, sans-serif;
+    z-index: 1;
+    padding: 10px 0 0 0;
+    width: 150px;
+    margin-left: 5px;
+    background: url(//image.aladin.co.kr/img/browse/uplayer2.png) bottom
+        no-repeat;
+    height: 46px;
+}
+.browse_vtype_bestnum {
+    float: left;
+    padding: 0px 15px;
+}
+.browse_vtype_bestnum dl {
+    float: left;
+    width: 335px;
+    list-style: none;
+}
+.browse_vtype_bestnum dt {
+    float: left;
+    width: 165px;
+    height: 235px;
+    position: relative;
+} /*높이추가*/
+.browse_vtype_bestnum dd {
+    float: right;
+    width: 170px;
+}
+.browse_vtype_bestnum dd li {
+    padding: 7px 0;
+}
+
+.browse_t_bg {
+    background: url(//image.aladin.co.kr/img/browse/t01.gif) no-repeat bottom;
+    padding-left: 12px;
+    padding-bottom: 4px;
+}
+.browse_t_bg a:link {
+    display: block;
+}
+
+.browse_t_bg2 {
+    background: url(//image.aladin.co.kr/img/browse/t02.gif) no-repeat bottom;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #cccccc;
+}
+.browse_t_bg2 a:link {
+    display: block;
+}
+
+.browse_t_bg3 {
+    background: url(//image.aladin.co.kr/img/browse/t03.gif) no-repeat bottom;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #cccccc;
+    color: #6d72b4;
+}
+.browse_booking_t0 {
+    padding-bottom: 6px;
+    color: #00cccc;
+    text-align: center;
+}
+
+/*대체텍스트를 위한 코드*/
+.blind {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+
+/* 음반 hotone 코너 임시 작성 */
+.hotone_cover {
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+.hotone_cover img {
+    width: 150px;
+    border: 1px solid #ddd;
+}
+
+/* 검색링크 추가 */
+a.s_after_textblue {
+    color: #3774b1 !important;
+    font-weight: bold;
+}
